@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stanford//AI Psych Symposium//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260520T093000
+DTEND;TZID=America/Los_Angeles:20260520T170000
+SUMMARY:Stanford Symposium on AI and Psychological Science
+LOCATION:Simonyi Conference Center\, CoDa Building\, 389 Jane Stanford Way\, Stanford\, CA 94305
+DESCRIPTION:A one-day symposium exploring the impact of AI on psychological science. Featuring keynote talks by Emma Brunskill and Michael Bernstein.
+END:VEVENT
+END:VCALENDAR
