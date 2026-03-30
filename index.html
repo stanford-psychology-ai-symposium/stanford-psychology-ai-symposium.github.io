@@ -329,6 +329,8 @@
       gap: 1.5rem;
       align-items: flex-start;
       transition: box-shadow 0.25s, transform 0.25s;
+      color: inherit;
+      text-decoration: none;
     }
 
     .speaker-card:hover {
@@ -671,19 +673,7 @@
       <p class="section-label">Keynote Speakers</p>
       <div class="speakers-grid">
 
-        <div class="speaker-card">
-          <div class="speaker-avatar">EB</div>
-          <div>
-            <span class="speaker-tag">Keynote</span>
-            <div class="speaker-name">Emma Brunskill</div>
-            <div class="speaker-title">Associate Professor of Computer Science<br>Stanford University</div>
-            <div class="speaker-bio">
-              Emma Brunskill's research focuses on reinforcement learning and machine learning for sequential decision-making, with applications to personalized education and human learning.
-            </div>
-          </div>
-        </div>
-
-        <div class="speaker-card">
+        <a class="speaker-card" href="https://profiles.stanford.edu/michael-bernstein" target="_blank" rel="noopener noreferrer">
           <div class="speaker-avatar">MB</div>
           <div>
             <span class="speaker-tag">Keynote</span>
@@ -693,7 +683,19 @@
               Michael Bernstein's research focuses on the design of social computing systems, crowd-powered AI, and the social dynamics that emerge when people interact through and alongside intelligent systems.
             </div>
           </div>
-        </div>
+        </a>
+
+        <a class="speaker-card" href="https://profiles.stanford.edu/emma-brunskill" target="_blank" rel="noopener noreferrer">
+          <div class="speaker-avatar">EB</div>
+          <div>
+            <span class="speaker-tag">Keynote</span>
+            <div class="speaker-name">Emma Brunskill</div>
+            <div class="speaker-title">Associate Professor of Computer Science<br>Stanford University</div>
+            <div class="speaker-bio">
+              Emma Brunskill's research focuses on reinforcement learning and machine learning for sequential decision-making, with applications to personalized education and human learning.
+            </div>
+          </div>
+        </a>
 
       </div>
     </div>
